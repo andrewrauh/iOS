@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F916D6FB158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F916D6FA158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg */; };
 		F916D8CF158A75BD00ED9D28 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F916D8CE158A75BD00ED9D28 /* CustomTabBarController.m */; };
+		F93FDF1D1593EBFC00A4DA68 /* ExploreViewTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F93FDF1C1593EBFC00A4DA68 /* ExploreViewTopCell.m */; };
+		F94681051593B1BC00E30041 /* ExploreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94681041593B1BC00E30041 /* ExploreTableViewController.m */; };
+		F94681071593B93800E30041 /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = F94681061593B93800E30041 /* 73-radar.png */; };
 		F95156F71581989F00FBFBF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156F61581989F00FBFBF0 /* UIKit.framework */; };
 		F95156F91581989F00FBFBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156F81581989F00FBFBF0 /* Foundation.framework */; };
 		F95156FB1581989F00FBFBF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156FA1581989F00FBFBF0 /* CoreGraphics.framework */; };
@@ -60,6 +63,11 @@
 		F916D6FA158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "581114_10151131992283066_1933427053_n-1.jpeg"; sourceTree = "<group>"; };
 		F916D8CD158A75BD00ED9D28 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		F916D8CE158A75BD00ED9D28 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		F93FDF1B1593EBFC00A4DA68 /* ExploreViewTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewTopCell.h; sourceTree = "<group>"; };
+		F93FDF1C1593EBFC00A4DA68 /* ExploreViewTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewTopCell.m; sourceTree = "<group>"; };
+		F94681031593B1BC00E30041 /* ExploreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewController.h; sourceTree = "<group>"; };
+		F94681041593B1BC00E30041 /* ExploreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewController.m; sourceTree = "<group>"; };
+		F94681061593B93800E30041 /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar.png"; sourceTree = "<group>"; };
 		F95156F21581989F00FBFBF0 /* iQrave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQrave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95156F61581989F00FBFBF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F95156F81581989F00FBFBF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -337,6 +345,11 @@
 				F9AC6A84158EF37500B63EFC /* ChangeUserPictureViewController.h */,
 				F9AC6A85158EF37500B63EFC /* ChangeUserPictureViewController.m */,
 				F9AC6A86158EF37500B63EFC /* ChangeUserPictureViewController.xib */,
+				F94681031593B1BC00E30041 /* ExploreTableViewController.h */,
+				F94681041593B1BC00E30041 /* ExploreTableViewController.m */,
+				F94681061593B93800E30041 /* 73-radar.png */,
+				F93FDF1B1593EBFC00A4DA68 /* ExploreViewTopCell.h */,
+				F93FDF1C1593EBFC00A4DA68 /* ExploreViewTopCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -417,6 +430,7 @@
 				F9D156FC158AFEF1004D8B8A /* HistoryCell.xib in Resources */,
 				F9DC625C158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png in Resources */,
 				F9AC6A88158EF37500B63EFC /* ChangeUserPictureViewController.xib in Resources */,
+				F94681071593B93800E30041 /* 73-radar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +453,8 @@
 				F9D156F3158AF486004D8B8A /* HistoryTableViewController.m in Sources */,
 				F9D156FA158AFE24004D8B8A /* HistoryCell.m in Sources */,
 				F9AC6A87158EF37500B63EFC /* ChangeUserPictureViewController.m in Sources */,
+				F94681051593B1BC00E30041 /* ExploreTableViewController.m in Sources */,
+				F93FDF1D1593EBFC00A4DA68 /* ExploreViewTopCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,12 +12,13 @@
 @interface ProfileViewController ()
 
 @property (strong,nonatomic) ChangeUserPictureViewController *picChange;
+@property (strong, nonatomic) UIView *fadeOut;
 
 @end
 
 @implementation ProfileViewController
 
-@synthesize contentScrollView, picChange;
+@synthesize contentScrollView, picChange, fadeOut;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,11 +42,19 @@
 
 - (IBAction)changeUserPicture:(id)sender {
     
+    
+    fadeOut = [[UIView alloc] initWithFrame:CGRectMake(200, 300, 320, 480)];
+    fadeOut.center = self.view.center;
+    
+    UIColor *color = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.9];
+    
+    [fadeOut setBackgroundColor:color];
+    [self.view addSubview:fadeOut];
+    
     picChange = [[ChangeUserPictureViewController alloc] init];
     picChange.delegate = self;
     picChange.view.frame = CGRectMake(200, 300, 250, 200);
     
-    //picChange.view.frame.size = CGSizeMake(200, 300);
     picChange.view.center = self.view.center;
     
     [self.view addSubview:picChange.view];
@@ -57,7 +66,7 @@
 - (void)dismissView {
     
     [self.picChange.view setHidden:YES];
-    
+    [self.fadeOut       setHidden:YES];
 }
 
 

@@ -34,6 +34,7 @@
     ScannedData *scannedData =[ScannedData sharedInstance];
     [scannedDataLabel setText:scannedData.scannedDataString];
     
+    
 //    if ([scannedData.scannedDataString isEqualToString:@"Lab Cafe - Ann Arbor"]) {
 //        
 //        

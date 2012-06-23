@@ -20,6 +20,9 @@
 
 - (void)viewDidLoad
 {
+    
+    
+    [self.navigationController.navigationBar setHidden:YES];
     readerView = [[ZBarReaderView alloc] init]; 
     [super viewDidLoad];
     
@@ -103,7 +106,7 @@
         //if ([scannedData.scannedDataString isEqualToString:@"Lab Cafe - Ann Arbor"]) {
             
             [self performSegueWithIdentifier:@"data" sender:nil];
-
+        [self.navigationController.navigationBar setHidden:NO];
             
        // }
         //NSLog(@"%@", sym.data);
